@@ -2,7 +2,7 @@
 // used by the main menu page.
 
 import { ipcRenderer, remote } from "electron";
-import { PublishRequest } from "./../common/PublishObjects";
+import { PublishRequest } from "./../../common/Objects/PublishObjects";
 const dialog = remote.dialog;
 
 type FileFoundCallback = (filepath: string, errorMsg: string) => void;
@@ -44,5 +44,5 @@ export function lookForFile(callback: FileFoundCallback) {
 // and returns immediatly. You can handle the result of the publish request by
 // handling the finished-publishing event.
 export function publish(filepath: string, subdir: string, repoUrl: string, branch: string, commitMsg: string, prTitle: string, prBody: string) {
-    ipcRenderer.send("request-publishing", new PublishRequest(filepath, subdir, repoUrl, branch, commitMsg, prTitle, prBody ));
+   ipcRenderer.send("request-publishing", new PublishRequest(filepath, subdir, repoUrl, branch, commitMsg, prTitle, prBody ));
 }
