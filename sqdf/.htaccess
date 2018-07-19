@@ -1,0 +1,6 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule ^data/1822-A$ http://www.vlaamsekunstcollectie.be/collection.aspx?p=0848cab7-2776-4648-9003-25957707491a&inv=1812-A [R=302,L]
+RewriteRule ^representation/1822-A$ http://www.vlaamsekunstcollectie.be/proxy.aspx?server=62.221.199.163&port=28301&overlaytext=&overlaytextalpha=14&overlaytextfontname=verdana&overlaytextfontsize=8&overlaytextfontcolor=000000&overlaytextbackgroundcolor=cccccc&cache=yes&borderwidth=0&borderheight=0&bordercolor=999999&passepartoutwidth=6&passepartoutheight=6&passepartoutcolor=ffffff&bg=ffffff&filename=gent\%2F1812-A.jpg [R=302,L]
+RewriteRule ^data/1824-A$ http://www.vlaamsekunstcollectie.be/collection.aspx?p=0848cab7-2776-4648-9003-25957707491a&inv=1814-A [R=302,L]
+RewriteRule ^representation/1824-A$ http://www.vlaamsekunstcollectie.be/proxy.aspx?server=62.221.199.163&port=28301&overlaytext=&overlaytextalpha=14&overlaytextfontname=verdana&overlaytextfontsize=8&overlaytextfontcolor=000000&overlaytextbackgroundcolor=cccccc&cache=yes&borderwidth=0&borderheight=0&bordercolor=999999&passepartoutwidth=6&passepartoutheight=6&passepartoutcolor=ffffff&bg=ffffff&filename=gent\%2FS-122.jpg [R=302,L]
