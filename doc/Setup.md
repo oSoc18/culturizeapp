@@ -57,7 +57,7 @@ Now, save the file and close it.
   Go back to your command prompt and type `npm start`. You should see some commands being run and a few seconds later, you should be greeted with a screen like this:
   ![loginpage](https://i.imgur.com/U4w0ESB.png)
  
-Try to click the login button, after a few seconds, a popup should appear, prompting you to fill in your credentials. When you're done, click on "Sign-In". The popup should close automatically and you should be redirected to this page:
+Try to click the signin button, after a few seconds, a popup should appear, prompting you to fill in your Github credentials. When you're done, click on "Sign-In". The popup should close automatically and you should be redirected to this page:
 
  ![mainpage](https://i.imgur.com/QgDo800.png)
  
