@@ -6,6 +6,7 @@ import fs = require("fs");
 const GitUrlParse = require("git-url-parse");
 const shellJs = require("shelljs");
 const simpleGit = require("simple-git");
+const path = require('path');
 
 /**
  * This class is responsible for managing a local copy of a 
@@ -52,7 +53,7 @@ export class GitRepoManager {
         const parsedURL = GitUrlParse(this.repoURL);
         this.repoName = parsedURL.name;
         this.ownerName = parsedURL.owner;
-        this.repoDir = this.workingDir + "\\" + this.repoName;
+        this.repoDir = this.workingDir + path.sep + this.repoName;
 
         // If it doesn't exists, create the working directory.
         this.createFoldersIfNeeded(this.workingDir);
