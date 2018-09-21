@@ -74,6 +74,10 @@ Try to click the login button, after a few seconds, a popup should appear, promp
 
  * 2. Setup continuous integration between your repo and a server
    You'll probably want to have the changes live as soon as possible once the server is updated. For that, you can setup CI solution such as [CircleCI](https://circleci.com/docs/2.0/). **Also:** Don't forget [to allow mod_rewrite on your Apache server!](https://www.digitalocean.com/community/tutorials/how-to-rewrite-urls-with-mod_rewrite-for-apache-on-ubuntu-16-04) 
+   * Setup with CircleCI
+   * Create config.yml file
+   * Create a circleCI account
+   * Have CircleCI 'following' your Github repo
    
 ### 6: Packaging/Distributing the App
  * We don't provide ways of packaging the app (creating installer/executables) by default. To package the app and distribute it, you might be interested in the following resources:
